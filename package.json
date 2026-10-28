@@ -1,0 +1,19 @@
+{
+  "name": "daily-momentum",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Faceless Instagram motivation page: generates and publishes one post per day.",
+  "scripts": {
+    "generate": "node src/daily.js",
+    "post": "node src/daily.js --publish"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.2",
+    "@expo-google-fonts/playfair-display": "^0.4.2",
+    "@napi-rs/canvas": "^0.1.80"
+  }
+}

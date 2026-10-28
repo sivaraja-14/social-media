@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+# output/ is committed on purpose: the workflow pushes it so Instagram
+# can fetch the image from a public URL.
